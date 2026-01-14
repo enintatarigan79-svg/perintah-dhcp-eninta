@@ -1,0 +1,5 @@
+Router(config)# ip dhcp pool (nama)
+Router(dhcp-config)# network ----(ip network)
+Router(dhcp-config)# default-router ----(ip address)
+Router(dhcp-config)# dns-server 8.8.8.8
+Router(dhcp-config)# exit
